@@ -14,3 +14,5 @@ will show you, your rating and will again ask you to choose one otion that you w
 exit the game. If you selected to exit the game, then game will confirm you choice and will get 
 automatically exited. Your Feed back will seprately saved in file named feedback.txt and will get updated
 according to your feedback updates.
+
+# This is the basic working of C Language Programmed Guess the Number Game:)
