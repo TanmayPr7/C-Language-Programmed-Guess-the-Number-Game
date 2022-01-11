@@ -1,1 +1,1 @@
-# C-Language-Programmed-Guess-the-Number-Game
+# C-Language-Programmed-Guess-the-Number-game
