@@ -11,4 +11,6 @@ ask you that you want to play, feedback or exit the game. If you selected the se
 ask you to rate the game on the scale of 1 to 5 stars, if you rated the game above 5 stars it throw an
 error and will again ask you to rate the game and if you rated the game correctly it will thank you and
 will show you, your rating and will again ask you to choose one otion that you want to play, feedback or
-exit the game.
+exit the game. If you selected to exit the game, then game will confirm you choice and will get 
+automatically exited. Your Feed back will seprately saved in file named feedback.txt and will get updated
+according to your feedback updates.
