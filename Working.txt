@@ -7,4 +7,8 @@ how many attempts you have taken guess the correct one. This game also have a fe
 # Basically, the game will start with asking you that, you want to play game, feedback the game or
 exit the game. If you choose to play game, it will randomly generate a number between 1 to 100
 according source code and will ask you to guess that number, if completed the game again game will
-ask you that you want to play, feedback or exit the game.
+ask you that you want to play, feedback or exit the game. If you selected the second option, game will
+ask you to rate the game on the scale of 1 to 5 stars, if you rated the game above 5 stars it throw an
+error and will again ask you to rate the game and if you rated the game correctly it will thank you and
+will show you, your rating and will again ask you to choose one otion that you want to play, feedback or
+exit the game.
