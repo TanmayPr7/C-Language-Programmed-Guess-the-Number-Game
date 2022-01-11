@@ -4,3 +4,7 @@ smaller number, if you guesssed the number smaller than actual one, then it will
 the higher number and if you gussed the number correct, it will congrats you and will tell you that
 how many attempts you have taken guess the correct one. This game also have a feedback system.
 
+# Basically, the game will start with asking you that, you want to play game, feedback the game or
+exit the game. If you choose to play game, it will randomly generate a number between 1 to 100
+according source code and will ask you to guess that number, if completed the game again game will
+ask you that you want to play, feedback or exit the game.
