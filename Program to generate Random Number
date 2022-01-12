@@ -12,3 +12,5 @@ int main()
     printf("Random generated is %d\n",num); //This will print the random number
     return 0;
 }
+
+//This the basic program to generate random numbers:)
