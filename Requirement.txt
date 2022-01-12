@@ -1,4 +1,7 @@
 # Requirements
 1.Programming IDE(VS Code)
 2.GCC Compiler for compiling C language programmes
-3.
+3.Device for programming(PC or Laptop)
+4.Code to generate Random Numbers
+
+# That's it these are all the basic requirements for this project:)
