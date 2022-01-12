@@ -36,3 +36,33 @@ void setup()
         no_guess++;
     }
 }
+
+int feedback(){
+    int d;
+    printf("\n");
+    printf("Press 1 if you want to Review Us:)\n");
+    printf("OR Press 0 if you want to exit Review page:)\n");
+    scanf("%d",&d);
+    if(d==1){
+        char e[6];
+        printf("Please Rate Us on scale of ***** star Sir\n");
+        scanf("%s",&e[0]);
+        if(strlen(e)>5){
+            printf("Error:(\n");
+            printf("Your Rating is Invalid Please provide Us Valid Review Sir Thank you:)\n");
+            printf("********************************************************************************************");
+            feedback();
+        }
+        else{
+            FILE *ptr;
+            ptr=fopen("Feedback.txt","a");
+            fprintf(ptr,"Your Rating is %s stars\n",e);
+            printf("Sir your Rating is %s Thank you for precious Review and Time\n",e);
+            printf("*********************************************************************************************");
+        }
+    }
+    else{
+        printf("*********************************************************************************************");
+        return 0;
+    }
+}
