@@ -1,0 +1,4 @@
+# Requirements
+1.Programming IDE(VS Code)
+2.GCC Compiler for compiling C language programmes
+3.
