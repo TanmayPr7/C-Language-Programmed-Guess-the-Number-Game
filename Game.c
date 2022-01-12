@@ -66,3 +66,26 @@ int feedback(){
         return 0;
     }
 }
+
+int main(){
+    int c;
+    printf("                              ************Play and Enjoy our game Guess the Number:)************\n");
+    while(1){
+        printf("\n");
+        printf("Press 1 to start the game:)\n");
+        printf("Press 2 to Review Us:)\n");
+        printf("OR Press 0 to exit the game:)\n");
+        scanf("%d",&c);
+        if(c==1){
+            setup();
+        }
+        else if(c==2){
+            feedback();
+        }
+        else{
+            return 0;
+        }
+    }
+    return 0;
+}
+
