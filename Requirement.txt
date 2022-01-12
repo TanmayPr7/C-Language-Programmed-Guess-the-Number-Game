@@ -4,4 +4,10 @@
 3.Device for programming(PC or Laptop)
 4.Code to generate Random Numbers
 
+# Library Required
+1.Stdio.h
+2.Stdlib.h
+3.Time.h
+4.String.h
+
 # That's it these are all the basic requirements for this project:)
