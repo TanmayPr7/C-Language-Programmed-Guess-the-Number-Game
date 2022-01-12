@@ -4,3 +4,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+
+void setup()                       
+{
+    int guess;
+    int num;
+    srand(time(0));
+    num=rand()%100;
